@@ -1,0 +1,41 @@
+  agg_filter: a filter function, which takes a (m, n, 3) float array and a dpi value, and returns a (m, n, 3) array 
+  alpha: float
+  animated: bool
+  antialiased: bool
+  clip_box: `.Bbox`
+  clip_on: bool
+  clip_path: [(`~matplotlib.path.Path`, `.Transform`) | `.Patch` | None] 
+  color: color
+  contains: callable
+  dash_capstyle: {'butt', 'round', 'projecting'}
+  dash_joinstyle: {'miter', 'round', 'bevel'}
+  dashes: sequence of floats (on/off ink in points) or (None, None)
+  drawstyle: {'default', 'steps', 'steps-pre', 'steps-mid', 'steps-post'}
+  figure: `.Figure`
+  fillstyle: {'full', 'left', 'right', 'bottom', 'top', 'none'}
+  gid: str
+  in_layout: bool
+  label: object
+  linestyle: {'-', '--', '-.', ':', '', (offset, on-off-seq), ...}
+  linewidth: float
+  marker: unknown
+  markeredgecolor: color
+  markeredgewidth: float
+  markerfacecolor: color
+  markerfacecoloralt: color
+  markersize: float
+  markevery: unknown
+  path_effects: `.AbstractPathEffect`
+  picker: float or callable[[Artist, Event], Tuple[bool, dict]]
+  pickradius: float
+  rasterized: bool or None
+  sketch_params: (scale: float, length: float, randomness: float) 
+  snap: bool or None
+  solid_capstyle: {'butt', 'round', 'projecting'}
+  solid_joinstyle: {'miter', 'round', 'bevel'}
+  transform: matplotlib.transforms.Transform
+  url: str
+  visible: bool
+  xdata: 1D array
+  ydata: 1D array
+  zorder: float
